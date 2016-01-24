@@ -1,3 +1,3 @@
 # HelloGithub
-This is the first time to use github
-I have for the project to my local laptop
+This is the first time to use github. 
+I have fork the project to my local laptop.
