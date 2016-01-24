@@ -1,3 +1,15 @@
+class Person{
+    name:string;
+    
+    constructor(name:string){
+        this.name = name;
+    }
+    talk(){
+        return "Bra, bra, bra...";
+    }
+}
+
+
 class Greeter{
     
     greeting:string;
@@ -11,5 +23,7 @@ class Greeter{
     }
 }
 
+var alex = new Person("Alex")
+console.log(alex.talk());
 var greeter = new Greeter(" GitHub.");
 console.log(greeter.greet());
